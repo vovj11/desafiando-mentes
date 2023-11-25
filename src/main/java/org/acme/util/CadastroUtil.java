@@ -1,5 +1,6 @@
 package org.acme.util;
 
+import org.acme.exception.ValorInvalidoException;
 import org.acme.jogador.Jogador;
 
 import java.util.ArrayList;
@@ -10,7 +11,13 @@ public class CadastroUtil {
     public static int getNumeroDeJogadores(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o número de participantes: ");
-        return scanner.nextInt();
+        int quantidadeJogadores= scanner.nextInt();
+
+        if(quantidadeJogadores <= 0){
+            throw new ValorInvalidoException("Entrada inválida, digite um valor numerico maior que zero!");
+        }
+
+        return quantidadeJogadores;
     }
 
     public static List<Jogador> cadastroJogador(){
