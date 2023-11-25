@@ -54,3 +54,26 @@
 18:40:37.321 33423 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 4) 24
 18:43:11.370 2816 [main] ERROR org.acme.jogo.Jogo - Erro ao processar jogador. Exceção: null
 18:43:11.374 2820 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+20:26:32.976 10810 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+20:26:33.030 10864 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+20:26:33.033 10867 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+20:26:33.033 10867 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 1) 1
+20:26:33.033 10867 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 2) 3
+20:26:33.034 10868 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 3) 6
+20:26:33.034 10868 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 4) 4
+20:26:35.326 13160 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+20:26:35.326 13160 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 1) 30
+20:26:35.327 13161 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 2) 33
+20:26:35.327 13161 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 3) 27
+20:26:35.327 13161 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 4) 24
+20:26:36.237 14071 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Luana
+20:26:36.237 14071 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+20:26:36.238 14072 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 1) 1
+20:26:36.238 14072 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 2) 3
+20:26:36.238 14072 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 3) 6
+20:26:36.238 14072 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 4) 4
+20:26:39.346 17180 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+20:26:39.346 17180 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 1) 30
+20:26:39.346 17180 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 2) 33
+20:26:39.346 17180 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 3) 27
+20:26:39.346 17180 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 4) 24
