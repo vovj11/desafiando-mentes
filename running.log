@@ -1,0 +1,56 @@
+18:14:01.297 14871 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:14:01.299 14873 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:14:01.303 14877 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:14:09.046 22620 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:14:13.673 27247 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Luana
+18:14:13.673 27247 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:14:19.065 32639 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:17:05.682 9768 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:17:08.016 12102 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:17:08.023 12109 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:17:11.010 15096 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:17:13.235 17321 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Luana
+18:17:13.235 17321 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:17:22.672 26758 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:18:20.261 17123 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:18:20.263 17125 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:18:20.266 17128 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:19:39.110 95972 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:19:39.120 95982 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Luana
+18:19:39.120 95982 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:20:07.817 5984 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:20:07.818 5985 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:20:07.820 5987 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:20:22.436 6683 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:20:22.438 6685 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:20:22.441 6688 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:22:08.077 112324 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:29:17.081 2937 [main] ERROR org.acme.jogo.Jogo - Erro ao processar jogador. Exceção: null
+18:29:17.085 2941 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:30:39.685 5771 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:30:39.687 5773 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:30:39.688 5774 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:30:42.365 8451 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:31:05.179 4675 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:31:36.414 17406 [main] ERROR org.acme.jogo.Jogo - Erro ao processar jogador. Exceção: null
+18:31:36.417 17409 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:35:57.701 10539 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:35:57.703 10541 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:35:57.706 10544 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:37:00.212 73050 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:39:59.523 3138 [main] ERROR org.acme.jogo.Jogo - Erro ao processar jogador. Exceção: null
+18:39:59.526 3141 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:40:08.660 4762 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!
+18:40:08.662 4764 [main] INFO  org.acme.jogo.Jogo - Vez do jogador: Vital
+18:40:08.664 4766 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da soma entre 2 + 2?
+18:40:15.731 11833 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 1) 1
+18:40:17.586 13688 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 2) 3
+18:40:18.930 15032 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 3) 6
+18:40:20.004 16106 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 4) 4
+18:40:32.672 28774 [main] INFO  org.acme.jogo.Jogo - Digite a alternativa que contém o resultdo da multiplicação entre 3 * 10?
+18:40:34.913 31015 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 1) 30
+18:40:35.744 31846 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 2) 33
+18:40:36.523 32625 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 3) 27
+18:40:37.321 33423 [main] DEBUG org.acme.jogo.Jogo - Alternativa: 4) 24
+18:43:11.370 2816 [main] ERROR org.acme.jogo.Jogo - Erro ao processar jogador. Exceção: null
+18:43:11.374 2820 [main] INFO  org.acme.jogo.Jogo - Iniciando o jogo!

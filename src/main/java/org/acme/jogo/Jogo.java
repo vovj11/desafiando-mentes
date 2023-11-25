@@ -3,6 +3,8 @@ package org.acme.jogo;
 import org.acme.jogador.Jogador;
 import org.acme.questionario.Questionario;
 import org.acme.util.CadastroUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 import java.util.Comparator;
@@ -10,33 +12,50 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Jogo {
+    private static final Logger logger = LoggerFactory.getLogger(Jogo.class);
     private List<Jogador> jogadores;
     private List<Questionario> perguntas;
 
     public Jogo(){
         this.perguntas = Questionario.listaDeQuestoes();
-        this.jogadores = CadastroUtil.cadastroJogador();
+        try {
+            this.jogadores = CadastroUtil.cadastroJogador();
+        }catch (Exception e){
+            logger.error("Erro ao processar jogador. Exceção: {}", e.getMessage());
+        }
     }
     public void iniciarJogo(){
+        logger.info("Iniciando o jogo!");
         for(Jogador jogador : jogadores){
-            System.out.println("Vez do jogador: "+jogador.getNome());
+            try {
+                logger.info("Vez do jogador: {}", jogador.getNome());
+                System.out.println("Vez do jogador: " + jogador.getNome());
 
-            for(Questionario pergunta : perguntas){
-                System.out.println(pergunta.getPergunta());
+                for (Questionario pergunta : perguntas) {
+                    try {
+                        logger.info(pergunta.getPergunta());
+                        System.out.println(pergunta.getPergunta());
 
-                for(String alternativa : pergunta.getAlternativas()){
-                    System.out.println(alternativa);
+                        for (String alternativa : pergunta.getAlternativas()) {
+                            logger.debug("Alternativa: {}", alternativa);
+                            System.out.println(alternativa);
+                        }
+
+                        Scanner scanner = new Scanner(System.in);
+                        int alternativaSelecionada = scanner.nextInt();
+
+                        if (alternativaSelecionada == pergunta.getAlternativaCorreta()) {
+                            System.out.println("Certa resposta!");
+                            jogador.setPontuacao(jogador.getPontuacao() + 1);
+                        } else {
+                            System.out.println("A resposta está errada!");
+                        }
+                    } catch (Exception e){
+                        logger.error("Erro ao processar pergunta. Exceção: {}", e.getMessage());
+                    }
                 }
-
-                Scanner scanner = new Scanner(System.in);
-                int alternativaSelecionada = scanner.nextInt();
-
-                if(alternativaSelecionada == pergunta.getAlternativaCorreta()){
-                    System.out.println("Certa resposta!");
-                    jogador.setPontuacao(jogador.getPontuacao()+1);
-                } else {
-                    System.out.println("A resposta está errada!");
-                }
+            } catch (Exception e){
+                logger.error("Erro ao processar jogador. Exceção: {}", e.getMessage());
             }
         }
         mostrarPosicoes();
